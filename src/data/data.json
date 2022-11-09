@@ -1,0 +1,88 @@
+[
+  {
+    "type": "textbox",
+    "code": "number",
+    "alias": "1",
+    "title": "Номер:"
+  },
+  {
+    "type": "datechooser",
+    "code": "date",
+    "alias": "1",
+    "title": "Дата:"
+  },
+  {
+    "type": "datechooser",
+    "code": "date_exec",
+    "alias": "1",
+    "title": "Дата проводки:"
+  },
+  {
+    "type": "textbox",
+    "code": "account1",
+    "alias": "1",
+    "title": "Счет отправителя:"
+  },
+  {
+    "type": "textbox",
+    "code": "corr1_n",
+    "alias": "1",
+    "title": "Наименование отправителя:"
+  },
+  {
+    "type": "grid",
+    "code": "",
+    "alias": "2",
+    "title": "",
+    "fields":[
+      {
+        "title":"Сумма",
+        "code":"sum",
+        "type":"number"
+      },
+      {
+        "title":"Счет получателя",
+        "code":"account2",
+        "type":"text"
+      },
+      {
+        "title":"Дт",
+        "code":"Dt",
+        "type":"text"
+      },
+      {
+        "title":"Кт",
+        "code":"Kt",
+        "type":"text"
+      }
+    ]
+  },
+  {
+    "type": "textbox",
+    "alias":"1",
+    "code":"inc_n",
+    "title":"Наим. дохода:"
+  },
+  {
+    "type":"textbox",
+    "alias":"2",
+    "code":"corr2_n",
+    "title":"Корреспондент:"
+  },
+  {
+    "accounts":[{
+      "number":"123456",
+      "name":"ООО'Организация'"
+    },{
+      "number":"987456",
+      "name":"ИП'Организация'"
+    },{
+      "number":"436589",
+      "name":"ОАО'Организация'"
+    },{
+      "number":"358639",
+      "name":"ЗАО'Организация'"
+    }]
+  }
+]
+  
